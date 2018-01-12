@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+        "spec": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/apm-install-dir-118010-2140-11ap3z7.1w5sfko6r"
+    ]
+  ],
+  "_from": "../d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+  "_id": "cpp-generator@1.0.1",
+  "_inCache": true,
+  "_location": "/cpp-generator",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+    "spec": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+  "_shasum": "d4b68a4e2b646f09f97132f723eb689cc874204c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/d-118010-2140-17rji8l.3y0ysyvi/package.tgz",
+  "_where": "/private/var/folders/md/qt8lssnn0rj1y1jsy9rl4gfr0000gn/T/apm-install-dir-118010-2140-11ap3z7.1w5sfko6r",
+  "activationCommands": {
+    ".tree-view .selected": "cpp-generator:generate-c++-files",
+    "atom-workspace": [
+      "cpp-generator:generate-c++-files"
+    ]
+  },
+  "author": {
+    "name": "Vidur Murali",
+    "email": "vidur.murali+atom@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Vyder/atom-cpp-generator/issues"
+  },
+  "configSchema": {
+    "metaAuthor": {
+      "default": "<author>",
+      "type": "string",
+      "description": "The author's name to be used in the file's comment header."
+    },
+    "metaDateFormat": {
+      "default": "DD/MM/YYYY",
+      "type": "string",
+      "description": "The date in the file's comment header is formatted using this string. Uses Moment.js' formats available [here](http://momentjs.com/docs/#/displaying/)"
+    },
+    "useSelectedFilepath": {
+      "default": false,
+      "type": "boolean",
+      "description": "If set, the generator's input prompt directory will be set to the same directory as the currently selected file. Otherwise, will it will be set to the project's root directory. This is a bit of an obtuse description, just try it out and you will see."
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "fs-extra": "^0.26.2",
+    "fs-plus": "^2.0.0",
+    "loophole": "^1.1.0",
+    "moment": "^2.12.0",
+    "temp": "^0.8.1",
+    "underscore": "^1.8.3"
+  },
+  "description": "C++ File generator for Atom editor",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/Vyder/atom-cpp-generator#readme",
+  "keywords": [
+    "c++",
+    "cpp",
+    "generator",
+    "template"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "cpp-generator",
+  "optionalDependencies": {},
+  "readme": "# cpp-generator package\n\nGenerates a C++ `.cpp` and `.hpp` file.\n\n## Usage:\n\n  - Open the command palette\n  - Select \"Generate C++ Files\"\n  - Enter the path and Class name you want\n\nThe generator should have created the two C++ files at the path you chose.\n\n## Configuration:\n\nYou can configure the Author Name and date format in the Settings panel.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyder/atom-cpp-generator.git"
+  },
+  "version": "1.0.1"
+}

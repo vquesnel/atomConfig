@@ -1,0 +1,52 @@
+"*":
+  core:
+    disabledPackages: [
+      "snippets"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "cpp-generator":
+    metaAuthor: "vquesnel"
+    metaDateFormat: "DD/MM/YYYY HH:mm:ss"
+    useSelectedFilepath: true
+  editor:
+    fontSize: 11
+    invisibles: {}
+    scrollSensitivity: 60
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "3cf26f1e-03a8-a0c2-205d-8230198705d3"
+  "header-42":
+    login: "vquesnel"
+  "linter-clang":
+    clangDefaultCFlags: "-Wall -Wextra -Werror"
+    clangDefaultCppFlags: "-Wall -Wextra -Werror"
+  "linter-gcc":
+    compileCommandsFile: "g++ -Wall -Wextra -Werror *.cpp"
+    execPath: "/usr/local/Cellar/gcc/7.2.0/bin/g++-7"
+    gccDebug: true
+    gccDefaultCFlags: "-Wall -Wextra -Werror"
+    gccDefaultCppFlags: " -Wall -Wextra -Werror"
+    gccErrorLimit: -1
+    gccLintOnTheFly: true
+  "linter-ui-default":
+    panelHeight: 336
+  "norminette-linter": {}
+  "platformio-ide-terminal":
+    core:
+      mapTerminalsTo: "File"
+      mapTerminalsToAutoOpen: true
+      scrollback: 10000000
+      workingDirectory: "Active File"
+    style:
+      theme: "one-dark"
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
