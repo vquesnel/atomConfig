@@ -22,8 +22,6 @@
     softWrap: true
   "exception-reporting":
     userId: "3cf26f1e-03a8-a0c2-205d-8230198705d3"
-  "header-42":
-    login: "vquesnel"
   "linter-clang":
     clangDefaultCFlags: "-Wall -Wextra -Werror"
     clangDefaultCppFlags: "-Wall -Wextra -Werror"
@@ -35,8 +33,7 @@
     gccDefaultCppFlags: " -Wall -Wextra -Werror"
     gccErrorLimit: -1
     gccLintOnTheFly: true
-  "linter-ui-default":
-    panelHeight: 336
+  "linter-ui-default": {}
   "norminette-linter": {}
   "platformio-ide-terminal":
     core:

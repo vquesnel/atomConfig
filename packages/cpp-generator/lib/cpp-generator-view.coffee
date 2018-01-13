@@ -84,13 +84,20 @@ class CppGeneratorView extends View
   getClassname: ->
     path.basename(@getUserInput())
 
+  String::upcase = -> @toUpperCase()
+
+  getUClassname: ->
+    path.basename(@getUserInput()).upcase()
+
   confirm: ->
     classname = @getClassname()
+    uClassname = @getUClassname()
     context = {
       "_date":     @metaDate(),
       "_author":   @metaAuthor(),
       "_project":  @metaProjectName(),
-      "classname": classname
+      "classname": classname,
+      "uClassname": uClassname.upcase()
     }
 
     @templatesRoot = path.join __dirname, "../", "templates"
