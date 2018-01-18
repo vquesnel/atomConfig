@@ -1,4 +1,6 @@
 "*":
+  "autocomplete-clang":
+    "std c++": "c++98"
   core:
     disabledPackages: [
       "snippets"
@@ -24,7 +26,7 @@
     userId: "3cf26f1e-03a8-a0c2-205d-8230198705d3"
   "linter-clang":
     clangDefaultCFlags: "-Wall -Wextra -Werror"
-    clangDefaultCppFlags: "-Wall -Wextra -Werror"
+    clangDefaultCppFlags: "-Wall -Wextra -Werror -std=c++98"
   "linter-gcc":
     compileCommandsFile: "g++ -Wall -Wextra -Werror *.cpp"
     execPath: "/usr/local/Cellar/gcc/7.2.0/bin/g++-7"
@@ -33,12 +35,12 @@
     gccDefaultCppFlags: " -Wall -Wextra -Werror"
     gccErrorLimit: -1
     gccLintOnTheFly: true
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "norminette-linter": {}
   "platformio-ide-terminal":
     core:
       mapTerminalsTo: "File"
-      mapTerminalsToAutoOpen: true
       scrollback: 10000000
       workingDirectory: "Active File"
     style:
