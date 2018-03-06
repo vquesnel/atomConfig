@@ -22,6 +22,8 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
   "exception-reporting":
     userId: "3cf26f1e-03a8-a0c2-205d-8230198705d3"
   "linter-clang":
@@ -35,8 +37,7 @@
     gccDefaultCppFlags: " -Wall -Wextra -Werror"
     gccErrorLimit: -1
     gccLintOnTheFly: true
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "norminette-linter": {}
   "platformio-ide-terminal":
     core:
